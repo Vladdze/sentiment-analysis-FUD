@@ -28,19 +28,24 @@ and 'tweet_fields', these are required to be mentioned in order for the stream t
     
     
 sentiment.ipynb
+
 This is where initial sentiment and analysis is done. Data will be pulled from MySQL DB to create figures, one will be a time series with the count of sentiment of 
 each kind (-1,0,+1) per time-interval and a topic tracking for most frequently used words in the tweets.
     
 complex.ipynb
+
 Complex real-time sentiment analysis and more complex analysis.
     
 settings.py
+
 settings for table_attributes, table_name.
    
 credentials.py
+
 contains all keys and passwords.
     
 gitignore
+
 contains credentials.py __pycache__ 
     
     
