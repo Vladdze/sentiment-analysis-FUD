@@ -10,7 +10,7 @@ localhost and calls to check for if a table exists inside the DB, if it does not
     
 Next, functions are defined, there are two main functions: 
     
-(1): clean_tweet, which is pre-processing of tweet text data, it removes, non-alphanumeric character,links
+(1): clean_tweet, which is pre-processing of tweet text data, it removes, \n for new line in tweets,links
 mentions and emojis using emoji library(emoji.replace_emoji), it then returns the cleaned tweet that is upto 255 characters long. This is necessary, as with the
 new Twitter Blue subscription, users can have tweets with the length of upto 4,000 characters. 255 characters is plenty to determine sentiment.
     
