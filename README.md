@@ -62,8 +62,11 @@ Dash == 2.9.2	Python library for developing analytical web application.
 
 NOT IN CURRENT ITTERATION
 Transformers == 4.27.4
+
 (Hugging Face)	Python library developed by Hugging Face library for Nature Language Processing and Machine Learning. Not currently implemented into the web app (discussed in shortcomings).
+
 Torch == 2.0	Python library for Machine Learning.
+
 
 
     
