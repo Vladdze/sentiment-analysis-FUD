@@ -1,6 +1,7 @@
 # sentiment-analysis-FUD
 
 Data and Methodology
+
 The updated research is to develop and validate a sentiment analysis approach that leverages social media data to effectively decipher market climate and associated risks within the volatile cryptocurrency market. Aiming to provide an easily readable tool that displays the state and sentiment around a cryptocurrency. Empowering investors to make more informed and strategic investment decisions in the cryptocurrency market.
 The currently minimally viable product contributes to past research and work in the field by providing real-time insights into the sentiment and emotional state of the online community surrounding cryptocurrencies, in this case – Ethereum. This offers several advanced and practical applications for academics, retail investors and crypto hobbyists:
 
