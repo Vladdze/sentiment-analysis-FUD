@@ -28,23 +28,38 @@ Data Visualization is done using Plotly to create real-time visualizations, show
 
 These functions are used to preprocess the data, tokenize it, remove stop words, and compute word frequency.
 “TextBlob.sentiment” uses a machine learning algorithm to analyze words in the “tweet.text” data field and assigns a polarity and subjectivity score to each word, It then calculated the average of these scores to determine the overall sentiment polarity and subjectivity of the text. This algorithm is based on the Naïve Bayes Classifier. This is the main algorithm used for sentiment analysis in this application.
+
 Tools and Libraries
 
 Tweepy == 4.13.0	Python library for accessing the Twitter API. Used to retrieve Twitter API data (Tweets)
+
 MySQL-Connector == 2.2.9	Python library for connect to MySQL databases. Used to connect to a MySQL database on the localhost
+
 Pandas == 1.5.3	Python library for data manipulation and analysis.
 Used for data structures (DataFrame)
+
 Numpy == 1.24.2	Python library for numerical computing.
+
 NLTK == 3.8.1	Python library from Natural Language Processing. Used to analyze “hot words” (most frequently used words around a topic) for analysis.
+
 TextBlob == 0.17.1	Python library for processing textual data. Used for sentiment analysis 
+
 Emoji == 2.2.0	Python library for working with emojis. Tweets can contain lots of emojis, used for pre-processing functions to remove emojis from Tweet.Text for better storage in database
+
 Regex == 2022.10.31	Python library for working with regular expressions. Used for different pre-processing functions.
+
 Plotly == 5.13.1
+
 Plotly-express == 0.4.1	Python library for creating interactive data visualization. Used for data visualization
+
 Seaborn == 0.12.2	Python library for data visualization. Used for data visualization
+
 Matplotlib == 3.7.1	Python library for data visualization. Used for data visualization
+
 SQLAlchemy ==2.0.7	Python library for interacting with MySQL.
+
 Dash == 2.9.2	Python library for developing analytical web application.
+
 NOT IN CURRENT ITTERATION
 Transformers == 4.27.4
 (Hugging Face)	Python library developed by Hugging Face library for Nature Language Processing and Machine Learning. Not currently implemented into the web app (discussed in shortcomings).
