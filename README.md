@@ -1,6 +1,6 @@
 # sentiment-analysis-FUD
 
-Data and Methodology
+# Data and Methodology
 
 The updated research is to develop and validate a sentiment analysis approach that leverages social media data to effectively decipher market climate and associated risks within the volatile cryptocurrency market. Aiming to provide an easily readable tool that displays the state and sentiment around a cryptocurrency. Empowering investors to make more informed and strategic investment decisions in the cryptocurrency market.
 The currently minimally viable product contributes to past research and work in the field by providing real-time insights into the sentiment and emotional state of the online community surrounding cryptocurrencies, in this case – Ethereum. This offers several advanced and practical applications for academics, retail investors and crypto hobbyists:
@@ -29,7 +29,7 @@ Data Visualization is done using Plotly to create real-time visualizations, show
 These functions are used to preprocess the data, tokenize it, remove stop words, and compute word frequency.
 “TextBlob.sentiment” uses a machine learning algorithm to analyze words in the “tweet.text” data field and assigns a polarity and subjectivity score to each word, It then calculated the average of these scores to determine the overall sentiment polarity and subjectivity of the text. This algorithm is based on the Naïve Bayes Classifier. This is the main algorithm used for sentiment analysis in this application.
 
-Tools and Libraries
+# Tools and Libraries
 
 Tweepy == 4.13.0	Python library for accessing the Twitter API. Used to retrieve Twitter API data (Tweets)
 
@@ -61,6 +61,7 @@ SQLAlchemy ==2.0.7	Python library for interacting with MySQL.
 Dash == 2.9.2	Python library for developing analytical web application.
 
 NOT IN CURRENT ITTERATION
+
 Transformers == 4.27.4
 
 (Hugging Face)	Python library developed by Hugging Face library for Nature Language Processing and Machine Learning. Not currently implemented into the web app (discussed in shortcomings).
@@ -70,7 +71,7 @@ Torch == 2.0	Python library for Machine Learning.
 
 
     
-Framework
+# Framework
 Current Framework
 The current framework directly interacts with the Twitter 2.0API streaming the data directly into a MySQL Database which then gets pulled in real time for Sentiment Analysis and Modeling. The analyzed data gets visualized in real time in 60s intervals which is the streamed to a Web App Analytical Dashboard.
 
@@ -81,7 +82,8 @@ Frameworks are shown Framework.JPG file.
 
 
 
-Shortcomings and Concluding Remarks 
+# Shortcomings and Concluding Remarks 
+
 This is an MVP – Minimally Viable Product, showing proof of concept for a real-time analytical web dashboard for monitoring the cryptocurrency ecosystem. Shortcoming and next steps for continuity are discussed below.
 Shortcomings and Continuity
 1.	Machine Learning, Data Storage and Parallel Streaming: 
